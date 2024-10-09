@@ -8,7 +8,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Auth::routes([
+    'register' => false,
+    
+]);
 
 Route::get('/', function () {
     return view('index');
@@ -19,4 +22,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::controller(Appointment::class)->group(function () {
     Route::get('/appointment', 'index')->name('appointment');
+    Route::get('/appointment/get/dropdownapplication', 'dropDownApplication')->name('dropdown-application');
+
 });
