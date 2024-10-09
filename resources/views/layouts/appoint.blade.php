@@ -26,7 +26,7 @@
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid justify-content-start">
             <a class="navbar-brand" href="/">
-                <img src="{{ asset('storage/img/zppsu.png') }}" alt="Bootstrap" width="30" height="24">
+                <img src="{{ asset('storage/img/zppsu.png') }}" alt="ZPPSU" width="30" height="24">
             </a>
             <a class="navbar-brand" href="/">Appointment System</a>
         </div>

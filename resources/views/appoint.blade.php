@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 input-group-lg">
-                    <label for="validationCustom02" class="form-label">Middle Name</label>
+                    <label for="validationCustom02" class="form-label">Middle Name (optional)</label>
                     <input type="text" class="form-control" id="validationCustom02" value="">
                 </div>
                 <div class="col-md-4 input-group-lg">
